@@ -1,0 +1,555 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="AliveBack.png" />
+	  <None Remove="AliveBackBloody.png" />
+	  <None Remove="AliveFront.png" />
+	  <None Remove="AliveFrontBloody.png" />
+	  <None Remove="AliveIconCleave.png" />
+	  <None Remove="AliveIconMutilate.png" />
+	  <None Remove="AliveIconStab.png" />
+	  <None Remove="AliveLocked.png" />
+	  <None Remove="AliveMenu.png" />
+	  <None Remove="AliveOverworld.png" />
+	  <None Remove="AlivePassiveBattleJunkie.png" />
+	  <None Remove="AlivePassiveSacrifice.png" />
+	  <None Remove="AlivePassiveSerialKiller.png" />
+	  <None Remove="Anesthetics.png" />
+	  <None Remove="anesthetics2.png" />
+	  <None Remove="angelback.png" />
+	  <None Remove="angelfront.png" />
+	  <None Remove="angellocked.png" />
+	  <None Remove="angelmenu.png" />
+	  <None Remove="angeloverworld.png" />
+	  <None Remove="AssetBundle.thedead" />
+	  <None Remove="backevil.png" />
+	  <None Remove="battleIcon bonding.png" />
+	  <None Remove="battleIcon confession.png" />
+	  <None Remove="battleIcon empower.png" />
+	  <None Remove="Cat Grill Back.png" />
+	  <None Remove="Cat Grill Focus.png" />
+	  <None Remove="Cat Grill Front.png" />
+	  <None Remove="Cat Grill Locked.png" />
+	  <None Remove="Cat Grill Overworld.png" />
+	  <None Remove="Cat Grill Unlocked.png" />
+	  <None Remove="Dead Anywhere.png" />
+	  <None Remove="Dead Back.png" />
+	  <None Remove="Dead False.png" />
+	  <None Remove="Dead Front.png" />
+	  <None Remove="Dead Locked.png" />
+	  <None Remove="Dead Not True.png" />
+	  <None Remove="Dead Overworld.png" />
+	  <None Remove="Dead Unlocked.png" />
+	  <None Remove="DecayPassiveIcon.png" />
+	  <None Remove="Determined.png" />
+	  <None Remove="DocBack.png" />
+	  <None Remove="DocDonor.png" />
+	  <None Remove="DocFront.png" />
+	  <None Remove="DocLocked.png" />
+	  <None Remove="DocMenu.png" />
+	  <None Remove="DocOver.png" />
+	  <None Remove="DocPrick.png" />
+	  <None Remove="DocSurgery.png" />
+	  <None Remove="DocTransfusion.png" />
+	  <None Remove="Dual Icon.png" />
+	  <None Remove="escape.png" />
+	  <None Remove="FAITHback.png" />
+	  <None Remove="FAITHfront.png" />
+	  <None Remove="FAITHlocked.png" />
+	  <None Remove="FAITHmenu.png" />
+	  <None Remove="FAITHoverworld.png" />
+	  <None Remove="Free Back.png" />
+	  <None Remove="Free Combat Guns.png" />
+	  <None Remove="Free Combat Laser Left.png" />
+	  <None Remove="Free Combat Laser Right.png" />
+	  <None Remove="Free Combat Rocket.png" />
+	  <None Remove="Free Front.png" />
+	  <None Remove="Free Locked.png" />
+	  <None Remove="Free Overworld.png" />
+	  <None Remove="Free Unlocked.png" />
+	  <None Remove="frontevil.png" />
+	  <None Remove="FunStatus.png" />
+	  <None Remove="GloomSprite.png" />
+	  <None Remove="Gray 1.png" />
+	  <None Remove="Gray 2.png" />
+	  <None Remove="Gray 3.png" />
+	  <None Remove="GuttedIcon.png" />
+	  <None Remove="Hit the Body.png" />
+	  <None Remove="Hit the Mind.png" />
+	  <None Remove="Hit the Soul.png" />
+	  <None Remove="Kill Babies.png" />
+	  <None Remove="lockedevil.png" />
+	  <None Remove="MaruSadisticBattleSprite.png" />
+	  <None Remove="MaruSadisticDrugsIcon.png" />
+	  <None Remove="MaruSadisticLocked.png" />
+	  <None Remove="MaruSadisticNoiseIcon.png" />
+	  <None Remove="MaruSadisticOverworld.png" />
+	  <None Remove="MaruSadisticSadismIcon.png" />
+	  <None Remove="MaruSadisticUnlocked.png" />
+	  <None Remove="MayBack.png" />
+	  <None Remove="MayDeath.png" />
+	  <None Remove="MayDespair.png" />
+	  <None Remove="MayFront.png" />
+	  <None Remove="MayLocked.png" />
+	  <None Remove="MayOverworld.png" />
+	  <None Remove="MaySmile.png" />
+	  <None Remove="MayTears.png" />
+	  <None Remove="MayUnlocked.png" />
+	  <None Remove="menuevil.png" />
+	  <None Remove="MODDD.png" />
+	  <None Remove="NO FUN.png" />
+	  <None Remove="OutOfRange Icon.png" />
+	  <None Remove="overworldevil.png" />
+	  <None Remove="ParanoidAnxiety.png" />
+	  <None Remove="ParanoidBack.png" />
+	  <None Remove="ParanoidDetour.png" />
+	  <None Remove="ParanoidEscape.png" />
+	  <None Remove="ParanoidFront.png" />
+	  <None Remove="ParanoidFutile.png" />
+	  <None Remove="ParanoidHurry.png" />
+	  <None Remove="ParanoidImpatience.png" />
+	  <None Remove="ParanoidLocked.png" />
+	  <None Remove="ParanoidMenu.png" />
+	  <None Remove="ParanoidOverworld.png" />
+	  <None Remove="ParanoidPanic.png" />
+	  <None Remove="ParanoidParanoia.png" />
+	  <None Remove="ParanoidSpeed.png" />
+	  <None Remove="ParanoidSuprise.png" />
+	  <None Remove="ParanoidUnSlap.png" />
+	  <None Remove="Patience Prayer.png" />
+	  <None Remove="Placeholder Back.png" />
+	  <None Remove="Placeholder Front.png" />
+	  <None Remove="Placeholder Locked.png" />
+	  <None Remove="Placeholder Overworld.png" />
+	  <None Remove="Placeholder Scribble.png" />
+	  <None Remove="PointBlank Icon.png" />
+	  <None Remove="Purple Essence.png" />
+	  <None Remove="Roger Back.png" />
+	  <None Remove="Roger Front.png" />
+	  <None Remove="Roger Locked.png" />
+	  <None Remove="Roger Overworld.png" />
+	  <None Remove="Roger Unlocked.png" />
+	  <None Remove="SaltItem.png" />
+	  <None Remove="SHUT UP.png" />
+	  <None Remove="StatusPower.png" />
+	  <None Remove="TOAST Album.png" />
+	  <None Remove="TOAST Back.png" />
+	  <None Remove="TOAST Butter.png" />
+	  <None Remove="TOAST Front.png" />
+	  <None Remove="TOAST Hazard.png" />
+	  <None Remove="TOAST Locked.png" />
+	  <None Remove="TOAST Overworld 2.png" />
+	  <None Remove="TOAST Overworld.png" />
+	  <None Remove="TOAST Snack.png" />
+	  <None Remove="TOAST Unlocked.png" />
+	  <None Remove="unlocko\achive\AbortionH_Panel.png" />
+	  <None Remove="unlocko\achive\AbortionO_Panel.png" />
+	  <None Remove="unlocko\achive\AliveH_Panel.png" />
+	  <None Remove="unlocko\achive\AliveO_Panel.png" />
+	  <None Remove="unlocko\achive\BloomingH_Panel.png" />
+	  <None Remove="unlocko\achive\BloomingO_Panel.png" />
+	  <None Remove="unlocko\achive\DeadH_Panel.png" />
+	  <None Remove="unlocko\achive\DeadO_Panel.png" />
+	  <None Remove="unlocko\achive\DelusionalH_Panel.png" />
+	  <None Remove="unlocko\achive\DelusionalO_Panel.png" />
+	  <None Remove="unlocko\achive\FreeH_Panel.png" />
+	  <None Remove="unlocko\achive\FreeO_Panel.png" />
+	  <None Remove="unlocko\achive\LostH_Panel.png" />
+	  <None Remove="unlocko\achive\LostO_Panel.png" />
+	  <None Remove="unlocko\achive\NoiseH_Panel.png" />
+	  <None Remove="unlocko\achive\NoiseO_Panel.png" />
+	  <None Remove="unlocko\achive\ParanoidH_Panel.png" />
+	  <None Remove="unlocko\achive\ParanoidO_Panel.png" />
+	  <None Remove="unlocko\achive\RemnantH_Panel.png" />
+	  <None Remove="unlocko\achive\RemnantO_Panel.png" />
+	  <None Remove="unlocko\achive\ToastH_Panel.png" />
+	  <None Remove="unlocko\achive\ToastO_Panel.png" />
+	  <None Remove="unlocko\item\AbortionH_item.png" />
+	  <None Remove="unlocko\item\AbortionO_item.png" />
+	  <None Remove="unlocko\item\AliveO_item.png" />
+	  <None Remove="unlocko\item\BloomingH_item.png" />
+	  <None Remove="unlocko\item\BloomingO_item.png" />
+	  <None Remove="unlocko\item\DeadH_item.png" />
+	  <None Remove="unlocko\item\DeadO_item.png" />
+	  <None Remove="unlocko\item\DelusionalH_item.png" />
+	  <None Remove="unlocko\item\DelusionalO_item.png" />
+	  <None Remove="unlocko\item\FreeH_item.png" />
+	  <None Remove="unlocko\item\FreeO_item.png" />
+	  <None Remove="unlocko\item\LostH_item.png" />
+	  <None Remove="unlocko\item\LostO_item.png" />
+	  <None Remove="unlocko\item\NoiseH_item.png" />
+	  <None Remove="unlocko\item\NoiseO_item.png" />
+	  <None Remove="unlocko\item\ParanoidH_item.png" />
+	  <None Remove="unlocko\item\ParanoidO_item.png" />
+	  <None Remove="unlocko\item\RemnantH_item.png" />
+	  <None Remove="unlocko\item\ToastH_item.png" />
+	  <None Remove="VenusBackBloom.png" />
+	  <None Remove="VenusBackBud.png" />
+	  <None Remove="VenusBloomingPassive.png" />
+	  <None Remove="VenusBuddingPassive.png" />
+	  <None Remove="VenusColonization.png" />
+	  <None Remove="VenusCycleOfLife.png" />
+	  <None Remove="VenusFrontBloom.png" />
+	  <None Remove="VenusFrontBud.png" />
+	  <None Remove="VenusInfinite.png" />
+	  <None Remove="VenusLocked.png" />
+	  <None Remove="VenusMaxHPLock.png" />
+	  <None Remove="VenusMenu.png" />
+	  <None Remove="VenusOverworld.png" />
+	  <None Remove="VenusParticular.png" />
+	  <None Remove="VenusPhotosynthesis.png" />
+	  <None Remove="VenusSpores.png" />
+	  <None Remove="Vince Back.png" />
+	  <None Remove="Vince Front.png" />
+	  <None Remove="Vince head.png" />
+	  <None Remove="Vince Locked.png" />
+	  <None Remove="Vince Overworld.png" />
+	  <None Remove="Vince Unlocked.png" />
+	  <None Remove="VowKeeper.png" />
+	  <None Remove="WitchBack0.png" />
+	  <None Remove="WitchBack1.png" />
+	  <None Remove="WitchBack2.png" />
+	  <None Remove="WitchBack3.png" />
+	  <None Remove="WitchBack4.png" />
+	  <None Remove="WitchBack5.png" />
+	  <None Remove="WitchBack6.png" />
+	  <None Remove="WitchDepression.png" />
+	  <None Remove="WitchEnvy.png" />
+	  <None Remove="WitchFront0.png" />
+	  <None Remove="WItchFront1.png" />
+	  <None Remove="WitchFront2.png" />
+	  <None Remove="WitchFront3.png" />
+	  <None Remove="WitchFront4.png" />
+	  <None Remove="WitchFront5.png" />
+	  <None Remove="WitchFront6.png" />
+	  <None Remove="WitchHope.png" />
+	  <None Remove="WitchLocked.png" />
+	  <None Remove="WitchMenu.png" />
+	  <None Remove="WitchOverworld.png" />
+	  <None Remove="WitchPassiveDetermination.png" />
+	  <None Remove="WitchPassiveImages.png" />
+	  <None Remove="Wrist Cuter.png" />
+	  <None Remove="Wrist Cutter Icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="AliveBack.png" />
+	  <EmbeddedResource Include="AliveBackBloody.png" />
+	  <EmbeddedResource Include="AliveFront.png" />
+	  <EmbeddedResource Include="AliveFrontBloody.png" />
+	  <EmbeddedResource Include="AliveIconCleave.png" />
+	  <EmbeddedResource Include="AliveIconMutilate.png" />
+	  <EmbeddedResource Include="AliveIconStab.png" />
+	  <EmbeddedResource Include="AliveLocked.png" />
+	  <EmbeddedResource Include="AliveMenu.png" />
+	  <EmbeddedResource Include="AliveOverworld.png" />
+	  <EmbeddedResource Include="AlivePassiveBattleJunkie.png" />
+	  <EmbeddedResource Include="AlivePassiveSacrifice.png" />
+	  <EmbeddedResource Include="AlivePassiveSerialKiller.png" />
+	  <EmbeddedResource Include="Anesthetics.png" />
+	  <EmbeddedResource Include="anesthetics2.png" />
+	  <EmbeddedResource Include="angelback.png" />
+	  <EmbeddedResource Include="angelfront.png" />
+	  <EmbeddedResource Include="angellocked.png" />
+	  <EmbeddedResource Include="angelmenu.png" />
+	  <EmbeddedResource Include="angeloverworld.png" />
+	  <EmbeddedResource Include="AssetBundle.thedead" />
+	  <EmbeddedResource Include="backevil.png" />
+	  <EmbeddedResource Include="battleIcon bonding.png" />
+	  <EmbeddedResource Include="battleIcon confession.png" />
+	  <EmbeddedResource Include="battleIcon empower.png" />
+	  <EmbeddedResource Include="Cat Grill Back.png" />
+	  <EmbeddedResource Include="Cat Grill Focus.png" />
+	  <EmbeddedResource Include="Cat Grill Front.png" />
+	  <EmbeddedResource Include="Cat Grill Locked.png" />
+	  <EmbeddedResource Include="Cat Grill Overworld.png" />
+	  <EmbeddedResource Include="Cat Grill Unlocked.png" />
+	  <EmbeddedResource Include="Dead Anywhere.png" />
+	  <EmbeddedResource Include="Dead Back.png" />
+	  <EmbeddedResource Include="Dead False.png" />
+	  <EmbeddedResource Include="Dead Front.png" />
+	  <EmbeddedResource Include="Dead Locked.png" />
+	  <EmbeddedResource Include="Dead Not True.png" />
+	  <EmbeddedResource Include="Dead Overworld.png" />
+	  <EmbeddedResource Include="Dead Unlocked.png" />
+	  <EmbeddedResource Include="DecayPassiveIcon.png" />
+	  <EmbeddedResource Include="Determined.png" />
+	  <EmbeddedResource Include="DocBack.png" />
+	  <EmbeddedResource Include="DocDonor.png" />
+	  <EmbeddedResource Include="DocFront.png" />
+	  <EmbeddedResource Include="DocLocked.png" />
+	  <EmbeddedResource Include="DocMenu.png" />
+	  <EmbeddedResource Include="DocOver.png" />
+	  <EmbeddedResource Include="DocPrick.png" />
+	  <EmbeddedResource Include="DocSurgery.png" />
+	  <EmbeddedResource Include="DocTransfusion.png" />
+	  <EmbeddedResource Include="Dual Icon.png" />
+	  <EmbeddedResource Include="escape.png" />
+	  <EmbeddedResource Include="FAITHback.png" />
+	  <EmbeddedResource Include="FAITHfront.png" />
+	  <EmbeddedResource Include="FAITHlocked.png" />
+	  <EmbeddedResource Include="FAITHmenu.png" />
+	  <EmbeddedResource Include="FAITHoverworld.png" />
+	  <EmbeddedResource Include="Free Back.png" />
+	  <EmbeddedResource Include="Free Combat Guns.png" />
+	  <EmbeddedResource Include="Free Combat Laser Left.png" />
+	  <EmbeddedResource Include="Free Combat Laser Right.png" />
+	  <EmbeddedResource Include="Free Combat Rocket.png" />
+	  <EmbeddedResource Include="Free Front.png" />
+	  <EmbeddedResource Include="Free Locked.png" />
+	  <EmbeddedResource Include="Free Overworld.png" />
+	  <EmbeddedResource Include="Free Unlocked.png" />
+	  <EmbeddedResource Include="frontevil.png" />
+	  <EmbeddedResource Include="FunStatus.png" />
+	  <EmbeddedResource Include="GloomSprite.png" />
+	  <EmbeddedResource Include="Gray 1.png" />
+	  <EmbeddedResource Include="Gray 2.png" />
+	  <EmbeddedResource Include="Gray 3.png" />
+	  <EmbeddedResource Include="GuttedIcon.png" />
+	  <EmbeddedResource Include="Hit the Body.png" />
+	  <EmbeddedResource Include="Hit the Mind.png" />
+	  <EmbeddedResource Include="Hit the Soul.png" />
+	  <EmbeddedResource Include="Kill Babies.png" />
+	  <EmbeddedResource Include="lockedevil.png" />
+	  <EmbeddedResource Include="MaruSadisticBattleSprite.png" />
+	  <EmbeddedResource Include="MaruSadisticDrugsIcon.png" />
+	  <EmbeddedResource Include="MaruSadisticLocked.png" />
+	  <EmbeddedResource Include="MaruSadisticNoiseIcon.png" />
+	  <EmbeddedResource Include="MaruSadisticOverworld.png" />
+	  <EmbeddedResource Include="MaruSadisticSadismIcon.png" />
+	  <EmbeddedResource Include="MaruSadisticUnlocked.png" />
+	  <EmbeddedResource Include="MayBack.png" />
+	  <EmbeddedResource Include="MayDeath.png" />
+	  <EmbeddedResource Include="MayDespair.png" />
+	  <EmbeddedResource Include="MayFront.png" />
+	  <EmbeddedResource Include="MayLocked.png" />
+	  <EmbeddedResource Include="MayOverworld.png" />
+	  <EmbeddedResource Include="MaySmile.png" />
+	  <EmbeddedResource Include="MayTears.png" />
+	  <EmbeddedResource Include="MayUnlocked.png" />
+	  <EmbeddedResource Include="menuevil.png" />
+	  <EmbeddedResource Include="MODDD.png" />
+	  <EmbeddedResource Include="NO FUN.png" />
+	  <EmbeddedResource Include="OutOfRange Icon.png" />
+	  <EmbeddedResource Include="overworldevil.png" />
+	  <EmbeddedResource Include="ParanoidAnxiety.png" />
+	  <EmbeddedResource Include="ParanoidBack.png" />
+	  <EmbeddedResource Include="ParanoidDetour.png" />
+	  <EmbeddedResource Include="ParanoidEscape.png" />
+	  <EmbeddedResource Include="ParanoidFront.png" />
+	  <EmbeddedResource Include="ParanoidFutile.png" />
+	  <EmbeddedResource Include="ParanoidHurry.png" />
+	  <EmbeddedResource Include="ParanoidImpatience.png" />
+	  <EmbeddedResource Include="ParanoidLocked.png" />
+	  <EmbeddedResource Include="ParanoidMenu.png" />
+	  <EmbeddedResource Include="ParanoidOverworld.png" />
+	  <EmbeddedResource Include="ParanoidPanic.png" />
+	  <EmbeddedResource Include="ParanoidParanoia.png" />
+	  <EmbeddedResource Include="ParanoidSpeed.png" />
+	  <EmbeddedResource Include="ParanoidSuprise.png" />
+	  <EmbeddedResource Include="ParanoidUnSlap.png" />
+	  <EmbeddedResource Include="Patience Prayer.png" />
+	  <EmbeddedResource Include="Placeholder Back.png" />
+	  <EmbeddedResource Include="Placeholder Front.png" />
+	  <EmbeddedResource Include="Placeholder Locked.png" />
+	  <EmbeddedResource Include="Placeholder Overworld.png" />
+	  <EmbeddedResource Include="Placeholder Scribble.png" />
+	  <EmbeddedResource Include="PointBlank Icon.png" />
+	  <EmbeddedResource Include="Purple Essence.png" />
+	  <EmbeddedResource Include="Roger Back.png" />
+	  <EmbeddedResource Include="Roger Front.png" />
+	  <EmbeddedResource Include="Roger Locked.png" />
+	  <EmbeddedResource Include="Roger Overworld.png" />
+	  <EmbeddedResource Include="Roger Unlocked.png" />
+	  <EmbeddedResource Include="SaltItem.png" />
+	  <EmbeddedResource Include="SHUT UP.png" />
+	  <EmbeddedResource Include="StatusPower.png" />
+	  <EmbeddedResource Include="TOAST Album.png" />
+	  <EmbeddedResource Include="TOAST Back.png" />
+	  <EmbeddedResource Include="TOAST Butter.png" />
+	  <EmbeddedResource Include="TOAST Front.png" />
+	  <EmbeddedResource Include="TOAST Hazard.png" />
+	  <EmbeddedResource Include="TOAST Locked.png" />
+	  <EmbeddedResource Include="TOAST Overworld 2.png" />
+	  <EmbeddedResource Include="TOAST Overworld.png" />
+	  <EmbeddedResource Include="TOAST Snack.png" />
+	  <EmbeddedResource Include="TOAST Unlocked.png" />
+	  <EmbeddedResource Include="unlocko\achive\AbortionH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\AbortionO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\AliveH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\AliveO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\BloomingH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\BloomingO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\DeadH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\DeadO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\DelusionalH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\DelusionalO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\FreeH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\FreeO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\LostH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\LostO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\NoiseH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\NoiseO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\ParanoidH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\ParanoidO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\RemnantH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\RemnantO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\ToastH_Panel.png" />
+	  <EmbeddedResource Include="unlocko\achive\ToastO_Panel.png" />
+	  <EmbeddedResource Include="unlocko\item\AbortionH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\AbortionO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\AliveO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\BloomingH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\BloomingO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\DeadH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\DeadO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\DelusionalH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\DelusionalO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\FreeH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\FreeO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\LostH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\LostO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\NoiseH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\NoiseO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\ParanoidH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\ParanoidO_item.png" />
+	  <EmbeddedResource Include="unlocko\item\RemnantH_item.png" />
+	  <EmbeddedResource Include="unlocko\item\ToastH_item.png" />
+	  <EmbeddedResource Include="VenusBackBloom.png" />
+	  <EmbeddedResource Include="VenusBackBud.png" />
+	  <EmbeddedResource Include="VenusBloomingPassive.png" />
+	  <EmbeddedResource Include="VenusBuddingPassive.png" />
+	  <EmbeddedResource Include="VenusColonization.png" />
+	  <EmbeddedResource Include="VenusCycleOfLife.png" />
+	  <EmbeddedResource Include="VenusFrontBloom.png" />
+	  <EmbeddedResource Include="VenusFrontBud.png" />
+	  <EmbeddedResource Include="VenusInfinite.png" />
+	  <EmbeddedResource Include="VenusLocked.png" />
+	  <EmbeddedResource Include="VenusMaxHPLock.png" />
+	  <EmbeddedResource Include="VenusMenu.png" />
+	  <EmbeddedResource Include="VenusOverworld.png" />
+	  <EmbeddedResource Include="VenusParticular.png" />
+	  <EmbeddedResource Include="VenusPhotosynthesis.png" />
+	  <EmbeddedResource Include="VenusSpores.png" />
+	  <EmbeddedResource Include="Vince Back.png" />
+	  <EmbeddedResource Include="Vince Front.png" />
+	  <EmbeddedResource Include="Vince head.png" />
+	  <EmbeddedResource Include="Vince Locked.png" />
+	  <EmbeddedResource Include="Vince Overworld.png" />
+	  <EmbeddedResource Include="Vince Unlocked.png" />
+	  <EmbeddedResource Include="VowKeeper.png" />
+	  <EmbeddedResource Include="WitchBack0.png" />
+	  <EmbeddedResource Include="WitchBack1.png" />
+	  <EmbeddedResource Include="WitchBack2.png" />
+	  <EmbeddedResource Include="WitchBack3.png" />
+	  <EmbeddedResource Include="WitchBack4.png" />
+	  <EmbeddedResource Include="WitchBack5.png" />
+	  <EmbeddedResource Include="WitchBack6.png" />
+	  <EmbeddedResource Include="WitchDepression.png" />
+	  <EmbeddedResource Include="WitchEnvy.png" />
+	  <EmbeddedResource Include="WitchFront0.png" />
+	  <EmbeddedResource Include="WItchFront1.png" />
+	  <EmbeddedResource Include="WitchFront2.png" />
+	  <EmbeddedResource Include="WitchFront3.png" />
+	  <EmbeddedResource Include="WitchFront4.png" />
+	  <EmbeddedResource Include="WitchFront5.png" />
+	  <EmbeddedResource Include="WitchFront6.png" />
+	  <EmbeddedResource Include="WitchHope.png" />
+	  <EmbeddedResource Include="WitchLocked.png" />
+	  <EmbeddedResource Include="WitchMenu.png" />
+	  <EmbeddedResource Include="WitchOverworld.png" />
+	  <EmbeddedResource Include="WitchPassiveDetermination.png" />
+	  <EmbeddedResource Include="WitchPassiveImages.png" />
+	  <EmbeddedResource Include="Wrist Cuter.png" />
+	  <EmbeddedResource Include="Wrist Cutter Icon.png" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Album">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Album.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnity">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnityResonance">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnityResonance.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.SerializableCollections">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.SerializableCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.Utility">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Unity">
+      <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
