@@ -471,6 +471,10 @@
 	</ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
     </Reference>
@@ -546,10 +550,6 @@
     <Reference Include="YarnSpinner.Unity">
       <HintPath>..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
