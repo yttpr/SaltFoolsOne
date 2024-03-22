@@ -29,7 +29,7 @@ namespace THE_DEAD
             }
             else
             {
-                damageDealtValueChangeException.AddModifier(new AdditionNotNegativeValueModifier(true, unit.GetStoredValue(UnitStoredValueNames.FleetingPA | UnitStoredValueNames.PersistenceOfTimeA | UnitStoredValueNames.BoneSpursPA)));
+                damageDealtValueChangeException.AddModifier(new AdditionNotNegativeValueModifier(true, unit.GetStoredValue((UnitStoredValueNames)69696969)));
                 flag = false;
             }
             return flag;
